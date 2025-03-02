@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Organization, Club, Pasig Catholic College, Pasig Catholic College Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <title> The Crusader </title>
+        <link rel="stylesheet" href="style.css">
+      
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <header>
+            <!-- Left: Pasig Catholic College Logo with Text -->
+            <div class="logo-container">
+                <div class="logo-left">
+                    <img src="images/pcc_logo.png" alt="Pasig Catholic College Logo">
+                </div>
+                <div class="vertical-line"></div>
+                <div class="logo-text">
+                    <p>Pasig</p>
+                    <p>Catholic</p>
+                    <p>College, Inc.</p>
+                </div>
+            </div>
+        
+            <!-- SIMBAHAN -->
+            <div class="simbahan-overlay">
+                <img src="images/pcc_simabahan.png">
+            </div>
+        
+            <!-- Center: The Crusader Title -->
+            <div class="header-text">
+                <h1>The Crusader</h1>
+                <p>Herald of Truth in Diversity</p>
+            </div>
+        
+            <!-- Right: Marker Logo -->
+            <div class="logo-right">
+                <a href="index.html">
+                <img src="images/logo.png" alt="Marker Logo">
+                </a>
+            </div>
+        </header>
+         
+    <!-- Navigation Bar --> 
+    <nav>
+        <ul>
+            <li><a href="index.html">Article</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="achievement.html">Achievement</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Team
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="officers.html">Officers</a></li>
+                    <li><a class="dropdown-item" href="members.html">Members</a></li>
+                </ul>
+            </li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="survey.html">Survey</a></li>
+        </ul>
+    </nav>
+
+    <!-- Editorial Board -->
+    <section class="team">
+
+        <h2 class="team-heading">The Crusader Editorial Board for S.Y. 2024-2025 ✒️</h2>
+
+        <div class="team-container">
+            <div class="team-card" onclick="openLightbox('images/brad.jpeg', 'Mr. Bradley B. Aninon', 'School Paper Adviser')">
+                <img src="images/brad.jpeg" alt="Mr. Bradley B. Aninon">
+                <div class="team-info">
+                    <h3>Mr. Bradley B. Aninon </h3>
+                    <p>School Paper Adviser</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/green.jpg', 'Ms. Hannah Angela G. Nino', 'School Paper Adviser')">
+                <img src="images/green.jpg" alt="Ms. Hannah Angela G. Nino">
+                <div class="team-info">
+                    <h3>Ms. Hannah Angela G. Nino</h3>
+                    <p>School Paper Adviser</p>
+                </div>
+            </div>
+
+        <div class="team-container">
+            <div class="team-card" onclick="openLightbox('images/valeriejoy.png', 'Valeriejoy Abaquita', 'Editor in Chief')">
+                <img src="images/valeriejoy.png" alt="Valeriejoy Abaquita">
+                <div class="team-info">
+                    <h3>Valeriejoy Abaquita</h3>
+                    <p>Editor in Chief</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/marc.png', 'Marc Adrian Alvarez', 'Associate Editor')">
+                <img src="images/marc.png" alt="Marc Adrian Alvarez">
+                <div class="team-info">
+                    <h3>Marc Adrian Alvarez</h3>
+                    <p>Chief Financial Officer</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/ethan.png', 'Ethan Matthew Condaya', 'Managing Editor')">
+                <img src="images/ethan.png" alt="Ethan Matthew Condaya">
+                <div class="team-info">
+                    <h3>Ethan Matthew Condaya</h3>
+                    <p>Managing Editor</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/princess.png', 'Princess Xian Quitiongco', 'Digital Publications Editor')">
+                <img src="images/princess.png" alt="Jessica Dawson">
+                <div class="team-info">
+                    <h3>Princess Xian Quitiongco</h3>
+                    <p>Digital Publications Editor</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/shin.png', 'Shin Amber Nogrado', 'News and Sports Editor')">
+                <img src="images/shin.png" alt="Shin Amber Nogrado">
+                <div class="team-info">
+                    <h3>Shin Amber Nogrado</h3>
+                    <p>News and Sports Editor</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/maria.png', 'Maria Angela Baltazar', 'Feature, Literary & Science Editor')">
+                <img src="images/maria.png" alt="Maria Angela Baltazar">
+                <div class="team-info">
+                    <h3>Maria Angela Baltazar</h3>
+                    <p>Feature, Literary & Science Editor</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/chymes.png', 'Chymes Elisse Malinao', 'Opinion Editor')">
+                <img src="images/chymes.png" alt="Chymes Elisse Malinao">
+                <div class="team-info">
+                    <h3>Chymes Elisse Malinao</h3>
+                    <p>Opinion Editor</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/franze.png', 'Franze Daniel Zafra', 'Chief Photojournalist')">
+                <img src="images/franze.png" alt="Franze Daniel Zafra">
+                <div class="team-info">
+                    <h3>Franze Daniel Zafra</h3>
+                    <p>Chief Photojournalist</p>
+                </div>
+            </div>
+            
+            <div class="team-card" onclick="openLightbox('images/anne.png', 'Anne Gabriel Luna', 'Associate Photojournalist')">
+                <img src="images/anne.png" alt="Anne Gabriel Luna">
+                <div class="team-info">
+                    <h3>Anne Gabriel Luna</h3>
+                    <p>Associate Photojournalist</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/zaynah.png', 'Zaynah Safiya De Vera', 'Chief Artist')">
+                <img src="images/zaynah.png" alt="Zaynah Safiya De Vera">
+                <div class="team-info">
+                    <h3>Zaynah Safiya De Vera</h3>
+                    <p>Chief Artist</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/soebene.png', 'Soebene Elyse Balasbas', 'Associate Artist')">
+                <img src="images/soebene.png" alt="Soebene Elyse Balasbas">
+                <div class="team-info">
+                    <h3>Soebene Elyse Balasbas</h3>
+                    <p>Associate Artist</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/ayesha.png', 'Ayesha Louise Marinay', 'Chief Layout Artist')">
+                <img src="images/ayesha.png" alt="Ayesha Louise Marinay">
+                <div class="team-info">
+                    <h3>Ayesha Louise Marinay</h3>
+                    <p>Chief Layout Artist</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/ryanna.png', 'Ryanna Dennise Fulgencio', 'Associate Layout Artist')">
+                <img src="images/ryanna.png" alt="Ryanna Dennise Fulgencio">
+                <div class="team-info">
+                    <h3>Ryanna Dennise Fulgencio</h3>
+                    <p>Associate Layout Artist</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/sabria.png', 'Ma. Sabria De Leon', 'Chief Broadcaster')">
+                <img src="images/sabria.png" alt="Ma. Sabria De Leon">
+                <div class="team-info">
+                    <h3>Ma. Sabria De Leon</h3>
+                    <p>Chief Broadcaster</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/janine.png', 'Janine Armina Payomo', 'Script Editor')">
+                <img src="images/janine.png" alt="Janine Armina Payomo">
+                <div class="team-info">
+                    <h3>Janine Armina Payomo</h3>
+                    <p>Script Editor</p>
+                </div>
+            </div>
+
+            <div class="team-card" onclick="openLightbox('images/redd.png', 'Redd Mariano', 'Production Manager')">
+                <img src="images/redd.png" alt="Redd Mariano">
+                <div class="team-info">
+                    <h3>Redd Mariano</h3>
+                    <p>Production Manager</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-img" src="" alt="">
+            <div class="lightbox-text">
+                <h3 id="lightbox-name"></h3>
+                <p id="lightbox-title"></p>
+            </div>
+        </div>
+    </div>
+    
+
+    <!---FOOTER--->
+    <footer>
+        <!-- Left Section (Contact Info) -->
+        <div class="footer-section footer-left">
+            <p><strong>Address:</strong> Plaza Rizal, Justice Ramon Jabson, Pasig, 1600 Metro Manila </p>
+            <p><strong>Tel. No.:</strong> (02) 8642 7451</p>
+            <p><strong>Email:</strong> peaches.mendoza@pccnet.edu.ph</p>
+
+            <div class="footer-social">
+                <p><b>Follow us on:</b></p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/pccshscrusader/">
+                        <img src="images/ig.png" alt="Instagram">
+                    </a>
+                    <a href="https://x.com/pccshscrusader?s=21">
+                        <img src="images/twitter.png" alt="twitter">
+                    </a>
+                    <a href="https://web.facebook.com/PCCSHSCrusader/?_rdc=1&_rdr#">
+                        <img src="images/fb.png" alt="Facebook">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Center and Right Sections -->
+        <div class="footer-center-right">
+            <!-- Store Section -->
+            <div class="footer-section footer-center">
+                <p class="store-title">Locate Us</p>
+                <a href="directory.html">
+                    <button class="store-btn">View Location</button>
+                </a>
+            </div>
+
+            <!-- Newsletter Subscription -->
+            <div class="footer-section footer-right">
+                <p><strong>Subscribe to our Newsletter!</strong></p>
+                <p>Be the first to get the latest updates</p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Enter email here">
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            © 2025 The Crusader. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
