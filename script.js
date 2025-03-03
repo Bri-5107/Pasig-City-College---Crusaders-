@@ -20,6 +20,30 @@ document.getElementById('lightbox').addEventListener('click', function(event) {
 
 /* Survey */
 
+function handleFormSubmit(event) {
+    event.preventDefault(); 
+    alert("Survey submitted successfully!"); 
+    document.querySelector("form").reset(); 
+    return false; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
