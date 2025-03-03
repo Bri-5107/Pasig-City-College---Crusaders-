@@ -784,8 +784,7 @@ textarea {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    background-image: url('images/pari.jpeg'); 
+    bottom: 0; 
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -811,16 +810,11 @@ textarea {
 
 .about-us p {
     font-size: 18px;
-    color: white;
+    color: black;
     line-height: 1.6;
     max-width: 800px;
     margin: 0 auto 20px;
     z-index: 1;
-    text-shadow:
-        2px 2px 4px rgba(0, 0, 0, 0.7),
-        -2px -2px 4px rgba(0, 0, 0, 0.7),
-        1px 1px 6px rgba(0, 0, 0, 0.8),
-        0px 0px 10px #fff;
 }
 
 .about-us .content {
@@ -1179,4 +1173,6 @@ body {
         padding: 10px 18px;
     }
 }
+
+
 
